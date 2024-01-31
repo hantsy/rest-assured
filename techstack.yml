@@ -1,0 +1,848 @@
+repo_name: hantsy/rest-assured
+report_id: 3bd9afa8175be8fe92a0c5e2bd30661b
+version: 0.1
+repo_type: Public
+timestamp: '2024-01-31T08:42:02+00:00'
+requested_by: johanhaleby
+provider: github
+branch: master
+detected_tools_count: 66
+tools:
+- name: Groovy
+  description: A multi-faceted language for the Java platform
+  website_url: https://groovy-lang.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/997/default_7ff5fcd857f42ad25149f659693d8930bffddf14.png
+  detection_source_url: https://github.com/hantsy/rest-assured
+  detection_source: Repo Metadata
+- name: Java
+  description: A concurrent, class-based, object-oriented, language specifically designed
+    to have as few implementation dependencies as possible
+  website_url: https://www.java.com
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/995/K85ZWV2F.png
+  detection_source_url: https://github.com/hantsy/rest-assured
+  detection_source: Repo Metadata
+- name: Kotlin
+  description: Statically typed Programming Language targeting JVM and JavaScript
+  website_url: https://kotlinlang.org/
+  open_source: true
+  hosted_saas: true
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/3750/pCfEzr6L.png
+  detection_source_url: https://github.com/hantsy/rest-assured
+  detection_source: Repo Metadata
+- name: Scala
+  description: A pure-bred object-oriented language that runs on the JVM
+  website_url: http://www.scala-lang.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1012/scala.png
+  detection_source_url: https://github.com/hantsy/rest-assured
+  detection_source: Repo Metadata
+- name: Spring Framework
+  description: An application framework and inversion of control container for the
+    Java platform
+  website_url: https://spring.io/projects/spring-framework
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/2006/spring-framework-project-logo.png
+  detection_source_url: https://github.com/hantsy/rest-assured/blob/master/dist/dist-spring-mock-mvc/pom.xml
+  detection_source: dist/dist-spring-mock-mvc/pom.xml
+  last_updated_by: Johan Haleby
+  last_updated_on: 2015-08-07 14:11:38.000000000 Z
+- name: Eclipse
+  description: IDE for Java EE Developers
+  website_url: https://www.eclipse.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Integrated Development Environment
+  image_url: https://img.stackshare.io/service/1446/8cyY6D_m.png
+  detection_source_url: https://github.com/hantsy/rest-assured/blob/master/examples/rest-assured-itest-java/pom.xml
+  detection_source: examples/rest-assured-itest-java/pom.xml
+  last_updated_by: Johan Haleby
+  last_updated_on: 2015-08-07 06:12:22.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/hantsy/rest-assured
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/hantsy/rest-assured/blob/master/.github/workflows/ci.yml
+  detection_source: ".github/workflows/ci.yml"
+  last_updated_by: sullis
+  last_updated_on: 2022-06-10 06:28:08.000000000 Z
+- name: JUnit
+  description: A programmer-oriented testing framework for Java
+  website_url: http://junit.org/
+  license: EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/2020/874086.png
+  detection_source_url: https://github.com/hantsy/rest-assured/blob/master/examples/kotlin-example/pom.xml
+  detection_source: examples/kotlin-example/pom.xml
+  last_updated_by: Johan Haleby
+  last_updated_on: 2019-09-27 12:47:07.000000000 Z
+- name: Log4j
+  description: A Java-based logging utility
+  website_url: https://logging.apache.org/log4j/2.x/
+  version: 1.7.12
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Logging Tools
+  image_url: https://img.stackshare.io/service/2804/Coralogix-log4j-integration.jpg
+  detection_source_url: https://github.com/hantsy/rest-assured/blob/master/examples/kotlin-example/pom.xml
+  detection_source: examples/kotlin-example/pom.xml
+  last_updated_by: Johan Haleby
+  last_updated_on: 2019-09-27 12:47:07.000000000 Z
+- name: Mockito
+  description: Tasty mocking framework for unit tests in Java
+  website_url: https://site.mockito.org/
+  version: 1.10.19
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/2021/4y634TJm_400x400.jpg
+  detection_source_url: https://github.com/hantsy/rest-assured/blob/master/rest-assured/pom.xml
+  detection_source: rest-assured/pom.xml
+  last_updated_by: Daniel Dyląg
+  last_updated_on: 2018-05-21 06:16:06.000000000 Z
+- name: SLF4J
+  description: Simple logging facade for Java
+  website_url: http://slf4j.org/
+  open_source: false
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Log Management
+  image_url: https://img.stackshare.io/service/2805/05518ecaa42841e834421e9d6987b04f_400x400.png
+  detection_source_url: https://github.com/hantsy/rest-assured/blob/master/examples/kotlin-example/pom.xml
+  detection_source: examples/kotlin-example/pom.xml
+  last_updated_by: Johan Haleby
+  last_updated_on: 2019-09-27 12:47:07.000000000 Z
+- name: Travis CI
+  description: A hosted continuous integration service for open source and private
+    projects
+  website_url: http://travis-ci.com/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png
+  detection_source_url: https://github.com/hantsy/rest-assured/blob/master/.travis.yml
+  detection_source: ".travis.yml"
+  last_updated_by: Johan Haleby
+  last_updated_on: 2019-06-17 08:05:24.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/hantsy/rest-assured
+  detection_source: Repo Metadata
+- name: com.fasterxml.jackson.core:jackson-core
+  description: Core Jackson processing abstractions
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hantsy/rest-assured/blob/master/modules/spring-web-test-client/pom.xml
+  detection_source: modules/spring-web-test-client/pom.xml
+  last_updated_by: Johan Haleby
+  last_updated_on: 2019-06-28 12:21:33.000000000 Z
+- name: com.fasterxml.jackson.core:jackson-databind
+  description: 'General data-binding functionality for Jackson: works on core streaming
+    API'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hantsy/rest-assured/blob/master/examples/rest-assured-itest-java/pom.xml
+  detection_source: examples/rest-assured-itest-java/pom.xml
+  last_updated_by: Johan Haleby
+  last_updated_on: 2022-01-19 14:54:09.000000000 Z
+- name: com.fasterxml.jackson.module:jackson-module-kotlin
+  description: Add-on module for Jackson
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hantsy/rest-assured/blob/master/modules/spring-mock-mvc-kotlin-extensions/pom.xml
+  detection_source: modules/spring-mock-mvc-kotlin-extensions/pom.xml
+  last_updated_by: Johan Haleby
+  last_updated_on: 2020-11-06 14:40:56.000000000 Z
+- name: com.google.code.gson:gson
+  description: Gson JSON library
+  version: 2.9.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hantsy/rest-assured/blob/master/examples/rest-assured-itest-java/pom.xml
+  detection_source: examples/rest-assured-itest-java/pom.xml
+  last_updated_by: Johan Haleby
+  last_updated_on: 2022-01-18 15:09:02.000000000 Z
+- name: com.googlecode.json-simple:json-simple
+  description: A simple Java toolkit for JSON
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hantsy/rest-assured/blob/master/json-path/pom.xml
+  detection_source: json-path/pom.xml
+  last_updated_by: Andrew Guibert
+  last_updated_on: 2020-01-17 08:22:29.000000000 Z
+- name: com.squareup.okhttp3:mockwebserver
+  description: 'Null'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hantsy/rest-assured/blob/master/examples/kotlin-example/pom.xml
+  detection_source: examples/kotlin-example/pom.xml
+  last_updated_by: Johan Haleby
+  last_updated_on: 2019-10-02 10:19:04.000000000 Z
+- name: com.squareup.okhttp:mockwebserver
+  description: An HTTP client for Android, Kotlin, and Java
+  version: 1.3.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hantsy/rest-assured/blob/master/examples/rest-assured-itest-java/pom.xml
+  detection_source: examples/rest-assured-itest-java/pom.xml
+  last_updated_by: Johan Haleby
+  last_updated_on: 2022-01-18 15:09:02.000000000 Z
+- name: com.sun.xml.bind:jaxb-impl
+  description: JAXB
+  license: CDDL-1.1,CNRI-Python-GPL-Compatible
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hantsy/rest-assured/blob/master/examples/rest-assured-itest-java/pom.xml
+  detection_source: examples/rest-assured-itest-java/pom.xml
+  last_updated_by: Johan Haleby
+  last_updated_on: 2022-01-19 14:54:09.000000000 Z
+- name: commons-fileupload:commons-fileupload
+  description: The Apache Commons FileUpload component provides a simple yet flexible
+    means of adding support for multipart file upload functionality to servlets and
+    web applications
+  version: 1.3.3
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hantsy/rest-assured/blob/master/examples/spring-mvc-webapp/pom.xml
+  detection_source: examples/spring-mvc-webapp/pom.xml
+  last_updated_by: Johan Haleby
+  last_updated_on: 2013-12-25 21:15:04.000000000 Z
+  vulnerabilities:
+  - name: Apache Commons FileUpload denial of service vulnerability
+    cve_id: CVE-2023-24998
+    cve_url: https://github.com/advisories/GHSA-hfrx-6qgj-fp6c
+    detected_date: Feb 22
+    severity: high
+    first_patched: '1.5'
+- name: commons-io:commons-io
+  description: The Apache Commons IO library contains utility classes
+  version: 2.8.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hantsy/rest-assured/blob/master/examples/spring-mvc-webapp/pom.xml
+  detection_source: examples/rest-assured-itest-java/pom.xml
+  last_updated_by: Johan Haleby
+  last_updated_on: 2011-03-01 19:33:49.000000000 Z
+- name: io.rest-assured:rest-assured
+  description: Java DSL for easy testing of REST services
+  version: 5.3.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hantsy/rest-assured/blob/master/examples/kotlin-example/pom.xml
+  detection_source: examples/kotlin-example/pom.xml
+  last_updated_by: Johan Haleby
+  last_updated_on: 2019-09-27 12:47:07.000000000 Z
+- name: javax.servlet:javax.servlet-api
+  description: Java.net - The Source for Java Technology Collaboration
+  version: 3.1.0
+  license: GPL-2.0-with-classpath-exception
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hantsy/rest-assured/blob/master/examples/scala-mock-mvc-example/pom.xml
+  detection_source: examples/scala-mock-mvc-example/pom.xml
+  last_updated_by: Mark Kolich
+  last_updated_on: 2019-02-19 19:19:00.000000000 Z
+- name: javax.xml.bind:jaxb-api
+  description: JAXB
+  license: CDDL-1.1,CNRI-Python-GPL-Compatible
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hantsy/rest-assured/blob/master/examples/rest-assured-itest-java-osgi/pom.xml
+  detection_source: examples/rest-assured-itest-java-osgi/pom.xml
+  last_updated_by: João Assunção
+  last_updated_on: 2022-03-22 06:57:12.000000000 Z
+- name: junit:junit
+  description: JUnit is a unit testing framework for Java
+  license: EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hantsy/rest-assured/blob/master/examples/kotlin-example/pom.xml
+  detection_source: examples/kotlin-example/pom.xml
+  last_updated_by: Johan Haleby
+  last_updated_on: 2019-09-27 12:47:07.000000000 Z
+- name: net.liftweb:lift-json_2.12
+  description: JSON Library
+  version: 3.4.3
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hantsy/rest-assured/blob/master/examples/scalatra-example/pom.xml
+  detection_source: examples/scalatra-example/pom.xml
+  last_updated_by: Johan Haleby
+  last_updated_on: 2021-05-21 12:48:09.000000000 Z
+- name: org.apache.commons:commons-lang3
+  description: Apache Commons Lang
+  version: '3.11'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hantsy/rest-assured/blob/master/examples/scalatra-example/pom.xml
+  detection_source: examples/scalatra-example/pom.xml
+  last_updated_by: Mark Kolich
+  last_updated_on: 2019-02-19 19:19:00.000000000 Z
+- name: org.apache.felix:org.apache.felix.framework
+  description: Apache Felix is a community effort to implement the OSGi Framework
+    and Service platform and other interesting OSGi-related technologies
+  version: 7.0.3
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hantsy/rest-assured/blob/master/examples/rest-assured-itest-java-osgi/pom.xml
+  detection_source: examples/rest-assured-itest-java-osgi/pom.xml
+  last_updated_by: Mark Kolich
+  last_updated_on: 2019-02-19 19:19:00.000000000 Z
+- name: org.apache.geronimo.specs:geronimo-atinject_1.0_spec
+  description: Apache Geronimo implementation of the JSR-330 Dependency Injection
+    Spec API
+  version: '1.2'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hantsy/rest-assured/blob/master/examples/rest-assured-itest-java-osgi/pom.xml
+  detection_source: examples/rest-assured-itest-java-osgi/pom.xml
+  last_updated_by: Mark Kolich
+  last_updated_on: 2019-02-19 19:19:00.000000000 Z
+- name: org.apache.httpcomponents:httpclient
+  description: Apache HttpComponents Client
+  version: 4.5.13
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hantsy/rest-assured/blob/master/rest-assured/pom.xml
+  detection_source: rest-assured/pom.xml
+  last_updated_by: Johan Haleby
+  last_updated_on: 2022-03-19 06:21:39.000000000 Z
+- name: org.apache.httpcomponents:httpmime
+  description: Apache HttpComponents HttpClient - MIME coded entities
+  version: 4.5.13
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hantsy/rest-assured/blob/master/rest-assured/pom.xml
+  detection_source: rest-assured/pom.xml
+  last_updated_by: Johan Haleby
+  last_updated_on: 2022-03-19 06:21:39.000000000 Z
+- name: org.assertj:assertj-core
+  description: Rich and fluent assertions for testing for Java
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hantsy/rest-assured/blob/master/modules/kotlin-extensions/pom.xml
+  detection_source: modules/kotlin-extensions/pom.xml
+  last_updated_by: Johan Haleby
+  last_updated_on: 2020-11-06 14:40:56.000000000 Z
+- name: org.ccil.cowan.tagsoup:tagsoup
+  description: TagSoup is a SAX-compliant parser written in Java that
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hantsy/rest-assured/blob/master/rest-assured/pom.xml
+  detection_source: rest-assured/pom.xml
+  last_updated_by: Johan Haleby
+  last_updated_on: 2022-03-19 06:21:39.000000000 Z
+- name: org.codehaus.jackson:jackson-core-asl
+  description: Jackson is a high-performance JSON processor
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hantsy/rest-assured/blob/master/json-path/pom.xml
+  detection_source: json-path/pom.xml
+  last_updated_by: Johan Haleby
+  last_updated_on: 2022-03-19 06:21:39.000000000 Z
+- name: org.codehaus.jackson:jackson-jaxrs
+  description: Jax-RS provider for JSON content type
+  license: LGPL-3.0-only
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hantsy/rest-assured/blob/master/examples/rest-assured-itest-java/pom.xml
+  detection_source: examples/rest-assured-itest-java/pom.xml
+  last_updated_by: Johan Haleby
+  last_updated_on: 2022-01-19 14:54:09.000000000 Z
+- name: org.codehaus.jackson:jackson-mapper-asl
+  description: Data Mapper package is a high-performance data binding package built
+    on Jackson JSON processor
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hantsy/rest-assured/blob/master/json-path/pom.xml
+  detection_source: json-path/pom.xml
+  last_updated_by: Johan Haleby
+  last_updated_on: 2022-03-19 06:21:39.000000000 Z
+- name: org.eclipse.jetty:jetty-annotations
+  description: Annotation support for deploying servlets in jetty
+  license: Apache-2.0,EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hantsy/rest-assured/blob/master/examples/spring-mvc-webapp/pom.xml
+  detection_source: examples/spring-mvc-webapp/pom.xml
+  last_updated_by: Johan Haleby
+  last_updated_on: 2022-01-18 15:14:29.000000000 Z
+- name: org.eclipse.jetty:jetty-webapp
+  description: Jetty web application support
+  license: Apache-2.0,EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hantsy/rest-assured/blob/master/examples/rest-assured-itest-java/pom.xml
+  detection_source: examples/rest-assured-itest-java/pom.xml
+  last_updated_by: Johan Haleby
+  last_updated_on: 2022-01-19 14:54:09.000000000 Z
+- name: org.glassfish.jaxb:jaxb-runtime
+  description: JAXB
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hantsy/rest-assured/blob/master/examples/rest-assured-itest-java/pom.xml
+  detection_source: examples/rest-assured-itest-java/pom.xml
+  last_updated_by: Johan Haleby
+  last_updated_on: 2022-01-19 14:54:09.000000000 Z
+- name: org.hamcrest:hamcrest
+  description: Core API and libraries of hamcrest matcher framework
+  license: DSDP
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hantsy/rest-assured/blob/master/json-path/pom.xml
+  detection_source: json-path/pom.xml
+  last_updated_by: Johan Haleby
+  last_updated_on: 2022-03-19 06:21:39.000000000 Z
+- name: org.jetbrains.kotlin:kotlin-stdlib-jdk8
+  description: Kotlin Standard Library JDK 8 extension
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hantsy/rest-assured/blob/master/modules/kotlin-extensions/pom.xml
+  detection_source: modules/kotlin-extensions/pom.xml
+  last_updated_by: Johan Haleby
+  last_updated_on: 2020-11-06 14:40:56.000000000 Z
+- name: org.littleshoot:littleproxy
+  description: LittleProxy is a high performance HTTP proxy written in Java and using
+    the Netty networking framework
+  version: 1.0.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hantsy/rest-assured/blob/master/examples/rest-assured-itest-java/pom.xml
+  detection_source: examples/rest-assured-itest-java/pom.xml
+  last_updated_by: Johan Haleby
+  last_updated_on: 2022-01-19 14:54:09.000000000 Z
+- name: org.mockito:mockito-core
+  description: Mockito mock objects library core API and implementation
+  version: 1.10.19
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hantsy/rest-assured/blob/master/rest-assured/pom.xml
+  detection_source: rest-assured/pom.xml
+  last_updated_by: Johan Haleby
+  last_updated_on: 2022-03-19 06:21:39.000000000 Z
+- name: org.ops4j.pax.exam:pax-exam-container-forked
+  description: In-Container Test Framework for OSGi
+  version: 4.13.4
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hantsy/rest-assured/blob/master/examples/rest-assured-itest-java-osgi/pom.xml
+  detection_source: examples/rest-assured-itest-java-osgi/pom.xml
+  last_updated_by: João Assunção
+  last_updated_on: 2022-03-22 06:57:12.000000000 Z
+- name: org.ops4j.pax.exam:pax-exam-inject
+  description: In-Container Test Framework for OSGi
+  version: 4.13.4
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hantsy/rest-assured/blob/master/examples/rest-assured-itest-java-osgi/pom.xml
+  detection_source: examples/rest-assured-itest-java-osgi/pom.xml
+  last_updated_by: João Assunção
+  last_updated_on: 2022-03-22 06:57:12.000000000 Z
+- name: org.ops4j.pax.exam:pax-exam-junit4
+  description: Pax Exam Integration testing framework for Modern Java Platforms
+  version: 4.13.4
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hantsy/rest-assured/blob/master/examples/rest-assured-itest-java-osgi/pom.xml
+  detection_source: examples/rest-assured-itest-java-osgi/pom.xml
+  last_updated_by: João Assunção
+  last_updated_on: 2022-03-22 06:57:12.000000000 Z
+- name: org.ops4j.pax.exam:pax-exam-link-mvn
+  description: Pax Exam Integration testing framework for Modern Java Platforms
+  version: 4.13.4
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hantsy/rest-assured/blob/master/examples/rest-assured-itest-java-osgi/pom.xml
+  detection_source: examples/rest-assured-itest-java-osgi/pom.xml
+  last_updated_by: João Assunção
+  last_updated_on: 2022-03-22 06:57:12.000000000 Z
+- name: org.ops4j.pax.url:pax-url-wrap
+  description: 'OPS4J Pax Url - wrap: protocol handler'
+  version: 2.6.11
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hantsy/rest-assured/blob/master/examples/rest-assured-itest-java-osgi/pom.xml
+  detection_source: examples/rest-assured-itest-java-osgi/pom.xml
+  last_updated_by: João Assunção
+  last_updated_on: 2022-03-22 06:57:12.000000000 Z
+- name: org.powermock:powermock-module-junit4
+  description: PowerMock support module for JUnit 4.x
+  version: 1.7.4
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hantsy/rest-assured/blob/master/modules/spring-web-test-client/pom.xml
+  detection_source: modules/spring-web-test-client/pom.xml
+  last_updated_by: Johan Haleby
+  last_updated_on: 2020-03-13 10:08:26.000000000 Z
+- name: org.powermock:powermock-reflect
+  description: Various utilities for accessing internals of a class
+  version: 1.5.6
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hantsy/rest-assured/blob/master/modules/spring-mock-mvc/pom.xml
+  detection_source: modules/spring-mock-mvc/pom.xml
+  last_updated_by: contextshuffling
+  last_updated_on: 2019-12-02 09:17:54.000000000 Z
+- name: org.scala-lang:scala-library
+  description: Standard library for the Scala Programming Language
+  version: 2.13.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hantsy/rest-assured/blob/master/examples/scala-example/pom.xml
+  detection_source: examples/scala-example/pom.xml
+  last_updated_by: Johan Haleby
+  last_updated_on: 2019-07-17 08:51:27.000000000 Z
+  vulnerabilities:
+  - name: Scala subject to file deletion, code execution due to Java deserialization
+      chain with LazyList object deserialization
+    cve_id: CVE-2022-36944
+    cve_url: https://github.com/advisories/GHSA-8qv5-68g4-248j
+    detected_date: Sep 29
+    severity: critical
+    first_patched: 2.13.9
+- name: org.skyscreamer:jsonassert
+  description: A library to develop RESTful but flexible APIs
+  version: 1.5.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hantsy/rest-assured/blob/master/modules/spring-mock-mvc/pom.xml
+  detection_source: modules/spring-mock-mvc/pom.xml
+  last_updated_by: contextshuffling
+  last_updated_on: 2019-12-02 09:17:54.000000000 Z
+- name: org.slf4j:slf4j-log4j12
+  description: SLF4J LOG4J-12 Binding
+  version: 1.7.12
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hantsy/rest-assured/blob/master/examples/kotlin-example/pom.xml
+  detection_source: examples/kotlin-example/pom.xml
+  last_updated_by: Johan Haleby
+  last_updated_on: 2019-09-27 12:47:07.000000000 Z
+- name: org.springframework.restdocs:spring-restdocs-core
+  description: Spring REST Docs Core
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hantsy/rest-assured/blob/master/modules/spring-web-test-client/pom.xml
+  detection_source: modules/spring-web-test-client/pom.xml
+  last_updated_by: Johan Haleby
+  last_updated_on: 2022-11-18 07:38:01.000000000 Z
+- name: org.springframework.security:spring-security-config
+  description: Spring-security-config
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hantsy/rest-assured/blob/master/examples/spring-mvc-webapp/pom.xml
+  detection_source: examples/spring-mvc-webapp/pom.xml
+  last_updated_by: Johan Haleby
+  last_updated_on: 2022-01-18 15:14:29.000000000 Z
+- name: org.springframework.security:spring-security-core
+  description: Spring-security-core
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hantsy/rest-assured/blob/master/modules/spring-mock-mvc/pom.xml
+  detection_source: modules/spring-mock-mvc/pom.xml
+  last_updated_by: Johan Haleby
+  last_updated_on: 2020-07-03 05:07:59.000000000 Z
+- name: org.springframework.security:spring-security-test
+  description: Spring-security-test
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hantsy/rest-assured/blob/master/examples/spring-mvc-webapp/pom.xml
+  detection_source: examples/spring-mvc-webapp/pom.xml
+  last_updated_by: Johan Haleby
+  last_updated_on: 2022-01-18 15:14:29.000000000 Z
+- name: org.springframework.security:spring-security-web
+  description: Spring-security-web
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hantsy/rest-assured/blob/master/examples/spring-mvc-webapp/pom.xml
+  detection_source: examples/spring-mvc-webapp/pom.xml
+  last_updated_by: Johan Haleby
+  last_updated_on: 2022-01-18 15:14:29.000000000 Z
+- name: org.springframework:spring-aop
+  description: Spring AOP
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hantsy/rest-assured/blob/master/examples/spring-mvc-webapp/pom.xml
+  detection_source: examples/spring-mvc-webapp/pom.xml
+  last_updated_by: Johan Haleby
+  last_updated_on: 2022-01-18 15:14:29.000000000 Z
+- name: org.springframework:spring-context
+  description: Spring Context
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hantsy/rest-assured/blob/master/modules/spring-web-test-client/pom.xml
+  detection_source: modules/spring-web-test-client/pom.xml
+  last_updated_by: Johan Haleby
+  last_updated_on: 2022-11-18 07:38:01.000000000 Z
+- name: org.springframework:spring-test
+  description: Spring TestContext Framework
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hantsy/rest-assured/blob/master/modules/spring-mock-mvc/pom.xml
+  detection_source: modules/spring-mock-mvc/pom.xml
+  last_updated_by: Johan Haleby
+  last_updated_on: 2020-07-03 05:07:59.000000000 Z
+- name: org.springframework:spring-webflux
+  description: Spring WebFlux
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hantsy/rest-assured/blob/master/modules/spring-web-test-client/pom.xml
+  detection_source: modules/spring-web-test-client/pom.xml
+  last_updated_by: Johan Haleby
+  last_updated_on: 2022-11-18 07:38:01.000000000 Z
+- name: org.springframework:spring-webmvc
+  description: Spring Web MVC
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hantsy/rest-assured/blob/master/examples/scala-mock-mvc-example/pom.xml
+  detection_source: examples/scala-mock-mvc-example/pom.xml
+  last_updated_by: Mark Kolich
+  last_updated_on: 2019-02-19 19:19:00.000000000 Z
